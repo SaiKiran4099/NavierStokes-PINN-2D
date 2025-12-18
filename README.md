@@ -36,7 +36,7 @@ The network minimizes a composite loss function consisting of:
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/SaiKiran4099/NavierStokes-PINN-2D.git](https://github.com/SaiKiran4099/NavierStokes-PINN-2D.git)
+   git clone https://github.com/SaiKiran4099/NavierStokes-PINN-2D.git
    cd NavierStokes-PINN-2D
    ```
    
