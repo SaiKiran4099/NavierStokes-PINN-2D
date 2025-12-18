@@ -17,7 +17,6 @@ for epoches in range(1, 10001):
     x = torch.rand(100, 1)
     y = torch.rand(100, 1)
    
-    # Changed calling convention to match new file structure
     loss = physics_loss(model, x, y)
     
     loss.backward()

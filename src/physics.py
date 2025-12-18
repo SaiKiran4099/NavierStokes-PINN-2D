@@ -14,7 +14,6 @@ def physics_loss(model, x, y):
     y_inputs = y_fluid.requires_grad_(True)
     Inputs = torch.cat([x_inputs, y_inputs], dim=1)
     
-    # Changed 'self' to 'model'
     predictions = model(Inputs) 
 
     u = predictions[:, 0].view(len(x_fluid), 1)
