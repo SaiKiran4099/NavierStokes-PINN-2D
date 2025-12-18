@@ -25,7 +25,8 @@ The network minimizes a composite loss function consisting of:
 * **Network:** Fully connected (MLP) with 3 hidden layers (30 neurons each) and Tanh activation.
 
 ## Results
-*(Once your code finishes, you will put your `steady_state_flow_final.png` here. Use this syntax: `![Flow Field](steady_flow_results/steady_state_flow_final.png)`)*
+
+<img width="1000" height="600" alt="result_plot" src="https://github.com/user-attachments/assets/e2d7cbdd-fef4-4d92-afeb-c2900d1ede36" />
 
 ## Structure
 * `src/model.py`: PyTorch Neural Network architecture.
