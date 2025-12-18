@@ -32,3 +32,20 @@ The network minimizes a composite loss function consisting of:
 * `src/model.py`: PyTorch Neural Network architecture.
 * `src/physics.py`: Navier-Stokes residuals and loss formulation.
 * `src/train.py`: Training loop and visualization pipeline.
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/SaiKiran4099/NavierStokes-PINN-2D.git](https://github.com/SaiKiran4099/NavierStokes-PINN-2D.git)
+   cd NavierStokes-PINN-2D
+   ```
+   
+2. Install dependencies:
+   ```bash
+   pip3 install -r requirements.txt
+   ```
+
+## Usage:
+```bash
+ python3 src/train.py
+```
